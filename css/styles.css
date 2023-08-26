@@ -1,0 +1,273 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+  padding: 40px;
+}
+@page {
+  size: A4;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #ffffff;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Main content */
+.main-content {
+  padding: 50px;
+  margin-left: 100px; 
+  /* padding: 154px; */
+}
+
+.main-content-title,
+.my-profession {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0 0 16px 0;
+}
+
+/* About me */
+/* .my-profession {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 8px 0;
+} */
+
+.my-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0 0 28px 0;
+}
+
+.my-descr,
+.project-descr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #595959;
+  width: 524px;
+}
+
+.about-me-container {
+  margin-bottom: 64px;
+}
+
+/* Projects */
+.projects-container {
+  margin: 0 0 40px 0;
+}
+
+.project-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.project-list {
+  padding: 0 0 0 16px;
+  margin: 0;
+}
+
+.projects-item-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.project-item-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #005fff;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 370px;
+  background: #e0ebfe;
+  padding: 0 0 0 0;
+}
+
+.my-photo {
+  margin: 40px 0 0 0;
+}
+
+.contacts-container,
+.language-container,
+.tech-skills-container,
+.location-container {
+  margin: 40px 0 0 40px;
+}
+
+.sidebar-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+  margin-bottom: 8px;
+}
+
+/* Work expirience */
+
+.work-expirience-container {
+  margin-top: 44px;
+  margin-bottom: 44px;
+  page-break-before: always;
+}
+
+.work-expirience-position,
+.course-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.work-expirience-place {
+  margin-bottom: 16px;
+}
+
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #050000;
+  margin: 12px 0 8px 0;
+}
+
+.work-duties {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.work-duties-list {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+/* Education */
+
+.education-speciality {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161d2a;
+  margin: 34px 0 12px 0;
+}
+
+/* Contaxt */
+.contact-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  margin-right: 8px;
+}
+
+.contacts-item {
+  margin: 0;
+}
+
+.contacts-number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+
+.contacts-email {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2979ff;
+}
+
+/* Skills */
+.skills-list,
+.language-list,
+.location-list {
+  margin: 0;
+  padding: 0 0 0 16px;
+}
+
+.skills-list-item,
+.language-list-item,
+.location-list-item {
+  color: #6d9bf5;
+}
+
+.skills-list-text,
+.language-list-text,
+.location-list-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+
+/* Button */
+.download-btn {
+  margin-top: 40px;
+  margin-left: 48px;
+  padding: 12px 24px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to right, #37b2f5, #040505);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px -8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 500ms ease;
+
+  position: fixed;
+  left: 80px;
+  bottom: 40px;
+  z-index: 200;
+}
+
+.download-btn:hover {
+  transform: translateY(-4px);
+}
+
+@media print {
+  #header {
+    display: none;
+  }
+  .download-btn {
+    display: none;
+  }
+}
